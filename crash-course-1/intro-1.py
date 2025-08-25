@@ -5,6 +5,7 @@ for friend in friends:
 
 # Variables Annotated by Type
 
+import typing
 # Define a variable of type str
 z: str = "Hello, world!"
 # Define a variable of type int
