@@ -250,3 +250,16 @@ def task_reminder(time_as_string):
 # ("10:00 a.m.") to the function.
 print(task_reminder("10:00 a.m."))
 # Should print "Provide IT Support to employees"
+
+
+# 8 TASK
+def get_remainder(x, y):
+ 
+  if x == 0 or y == 0 or x ==y:
+    remainder = 0
+  else:
+    remainder = (x % y) / y
+  return remainder
+
+
+print(get_remainder(10, 3))
