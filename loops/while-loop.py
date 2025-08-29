@@ -6,6 +6,7 @@ print("x=" + str(x))
 
 ##
 
+# task-1
 def attempts(n):
     x = 1
     while x <= n:
@@ -14,3 +15,10 @@ def attempts(n):
     print("Done")
 
 attempts(5)
+
+##
+# task-2
+my_variable = 5
+while my_variable < 10:
+    print("Hello")
+    my_variable += 1
