@@ -59,3 +59,7 @@ for x in range(2, -2, -1):
 
 
 # The loop should print 2, 1, 0, -1
+
+##
+for i in [8,9,10]:
+   print(i)

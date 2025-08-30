@@ -174,3 +174,9 @@ addition_table(30)
 # 17 + 2 = 19
 # 17 + 3 = 20
 # None
+
+#
+i = 20
+while (i > 15):
+     print(i)
+     i = i - 1
