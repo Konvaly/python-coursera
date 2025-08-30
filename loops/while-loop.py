@@ -180,3 +180,8 @@ i = 20
 while (i > 15):
      print(i)
      i = i - 1
+
+#
+names = ['Emi', 'Alex', 'John', 'vetrik']
+for i in names:
+     print("Welcome,", i)
