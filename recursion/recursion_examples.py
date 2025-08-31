@@ -69,3 +69,18 @@ def count_users(group):
 print(count_users("sales")) # Should be 3
 print(count_users("engineering")) # Should be 8
 print(count_users("everyone")) # Should be 18
+
+#Example-5
+# In the while loops practice quiz, you were asked to write a function to calculate 
+# the sum of all positive numbers between 1 and n. Rewrite the function using recursion
+#  instead of a while loop. Remember that when n is less than 1, 
+# the function should return 0 as the answer.
+
+def sum_positive_numbers(n):
+    if n < 1:
+        return 0
+    return n + sum_positive_numbers(n - 1)
+
+
+print(sum_positive_numbers(3)) # Should be 6
+print(sum_positive_numbers(5)) # Should be 15
