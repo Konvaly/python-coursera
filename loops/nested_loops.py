@@ -61,6 +61,3 @@ print("*" * 8)
 for n in range(10):
   print(n+n)
 
-for x in range(0,101): 
-    if x % 7 == 0
-       print(x, end=" ")
