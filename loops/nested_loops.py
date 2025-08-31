@@ -46,3 +46,11 @@ for x in range(7):
 # As a list comprehension:
 even_numbers = [x for x in range(7) if x % 2 == 0]
 print(even_numbers)
+
+
+# Example-5
+# With a list comprehension, you could achieve the same result in a more concise way:
+sequence = range(10)
+new_list = [x for x in sequence if x % 2 == 0]
+
+print(new_list)
