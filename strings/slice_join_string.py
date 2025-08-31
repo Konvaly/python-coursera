@@ -1,3 +1,4 @@
+## SLICE
 # Example 1
 
 string1 = "Greetings, Earthlings"
@@ -25,3 +26,12 @@ print(string1[0::2])
 
 # Prints “sgnilhtraE ,sgniteerG”
 print(string1[::-1])
+
+## JOIN
+# Example 5
+greetings = ["Hello", "world"]
+print(" ".join(greetings))  # Prints "Hello world"
+
+# You can also concatenate a combination of strings and variables like in the following example.
+name = "Alice"
+print("Hello, " + name + "!")  # Prints "Hello, Alice!"
