@@ -54,3 +54,13 @@ sequence = range(10)
 new_list = [x for x in sequence if x % 2 == 0]
 
 print(new_list)
+
+# An example of a useful one-liner is:
+print("*" * 8)
+
+for n in range(10):
+  print(n+n)
+
+for x in range(0,101): 
+    if x % 7 == 0
+       print(x, end=" ")
