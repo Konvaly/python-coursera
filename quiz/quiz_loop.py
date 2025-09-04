@@ -83,3 +83,33 @@ def divisible(max, divisor):
 print(divisible(100, 10)) # Should be 10
 print(divisible(10, 3)) # Should be 4
 print(divisible(144, 17)) # Should be 9
+
+
+# Task-5
+# Fill in the blanks to complete the “all_numbers” function. This function should return 
+# a space-separated string of all numbers, from the starting   “minimum” variable  up to 
+# and including the “maximum” variable that's passed into the function. Complete the for loop 
+# so that a function call like “all_numbers(3,6)” will return the numbers “3 4 5 6”.  
+
+def all_numbers(minimum, maximum):
+
+    return_string = "" # Initializes variable as a string
+
+    # Complete the for loop with a range that includes all 
+    # numbers up to and including the "maximum" value.
+    for x in range(minimum, maximum+1): 
+
+        # Complete the body of the loop by appending the number
+        # followed by a space to the "return_string" variable.
+        print(x) 
+
+    # This .strip command will remove the final " " space 
+    # at the end of the "return_string".
+    return return_string.strip()
+
+
+print(all_numbers(2,6))  # Should be 2 3 4 5 6
+print(all_numbers(3,10)) # Should be 3 4 5 6 7 8 9 10
+print(all_numbers(-1,1)) # Should be -1 0 1
+print(all_numbers(0,5))  # Should be 0 1 2 3 4 5
+print(all_numbers(0,0))  # Should be 0
