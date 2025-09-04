@@ -65,3 +65,21 @@ def rows_asterisks(rows):
 
 rows_asterisks(5)
 # Should print the asterisk rows shown above
+
+
+# Task-4
+# Fill in the blanks to complete the “divisible” function. This function should count the number 
+# of values from 0 to the “max” parameter minus 1 that are evenly divisible by the “divisor” parameter. 
+# This means they do not have a remainder when divided by the divisor. Complete the code so that 
+# a function call like “divisible(100,10)” will return the number “10”.
+
+def divisible(max, divisor):
+    count = 0 # Initialize an incremental variable
+    for x in range(max): # Complete the for loop
+        if x % divisor == 0:
+            count += 1 # Increment the appropriate variable
+    return count
+
+print(divisible(100, 10)) # Should be 10
+print(divisible(10, 3)) # Should be 4
+print(divisible(144, 17)) # Should be 9
