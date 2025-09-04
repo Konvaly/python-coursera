@@ -108,3 +108,13 @@ print(all_numbers(3,10))  # 3 4 5 6 7 8 9 10
 print(all_numbers(-1,1))  # -1 0 1
 print(all_numbers(0,5))   # 0 1 2 3 4 5
 print(all_numbers(0,0))   # 0
+
+# Task-6
+# Fill in the blanks to print the numbers from 15 to 5, counting down by fives.
+
+number = 15 # Initialize the variable
+while number >= 5: # Complete the while loop condition
+    print(number, end=" ")
+    number -= 5 # Increment the variable
+
+# Should print 15 10 5 
