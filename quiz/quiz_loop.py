@@ -261,3 +261,14 @@ print(odd_numbers(1))  # Should be 1
 print(odd_numbers(3))  # Should be 1 3
 print(odd_numbers(0))  # No numbers displayed
 
+# Task-11
+#
+num1 = 0
+num2 = 0
+
+for x in range(5):
+    num1 = x
+    for y in range(14):
+        num2 = y + 3
+
+print(num1 + num2)
