@@ -12,3 +12,15 @@ print(message)
 message = "And another one"
 print(message)
 
+# Example 3
+
+pets = "Cats & Dogs"
+print(pets.index("&"))
+print(pets.index("C"))
+print(pets.index("Dog"))
+print(pets.index("s"))
+
+# Example 4
+pets="Cats & Dogs"
+print("Dragons" in pets)
+print("Cats" in pets)
